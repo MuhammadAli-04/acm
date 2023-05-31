@@ -1,0 +1,40 @@
+.div8-content{
+    text-align: center;
+    background-color: #05192D;
+    color: whitesmoke;
+    font-size: small;
+    padding: 3% 6%;
+}
+
+
+.flex-imgs{
+    justify-content: space-around;
+    img{
+        margin:0 15%;
+    }
+}
+
+
+
+.flex-links{
+    justify-content: space-around;
+    a{
+        font-size: 30px;
+        color: #3086EE;
+        margin: 5% 10%;
+        text-decoration: none;
+    }
+}
+
+
+.flex-contacts{
+    justify-content: space-around;
+    color: #3086EE;
+    strong{
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    div{
+        margin: 10%;
+    }
+}

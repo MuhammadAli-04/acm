@@ -1,0 +1,13 @@
+.div3 {
+  padding: 2% 6%;
+  display: grid;
+  place-items: center;
+  background-color: #21E9FF;
+  background-image: url("../../../public/resources/images/network.jpg");
+  background-size: cover;
+  background-position: center;
+  border: #0D0B35;
+  color: #0D0B35;
+  margin-bottom: 150px;
+  margin-top: 0;
+}

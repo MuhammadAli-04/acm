@@ -1,0 +1,24 @@
+@keyframes ghayab {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        
+    }
+}
+
+.icon1{
+    position: absolute;
+    transition: all;
+}
+.icon{
+    margin: 2%;
+}
+.icon:hover{
+    .icon1{
+        animation: ghayab 100s 1 0.3s;
+    }
+    .icon2{
+        transform: rotate(30deg) scale(1.1);
+    }
+}

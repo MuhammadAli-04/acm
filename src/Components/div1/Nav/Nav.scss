@@ -1,0 +1,26 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.dropdown-menu{
+    color: grey;
+    padding: 2% 5%;
+    .dropdown-item{
+        text-decoration: none;
+        text-align: center;
+        padding: 2% 5%;
+        font-size: 10px;
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        background-color: black;
+        margin: 2.5% 0;
+    }
+}

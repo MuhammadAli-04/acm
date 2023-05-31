@@ -1,0 +1,50 @@
+.div6 {
+  padding: 2% 6%;
+  overflow: hidden;
+  font-size: 12px;
+  display: grid;
+  place-items: center;
+  position: relative;
+  background-color: #526D82;
+  height: 100vh; }
+
+.bg-1 {
+  position: absolute;
+  top: 25%;
+  left: -35%;
+  z-index: 1;
+  width: 774.9676513671875px;
+  height: 680.3716430664062px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./../../../public/resources/images/bg-1.svg"); }
+
+.bg-2 {
+  position: absolute;
+  top: -40%;
+  left: 10%;
+  width: 770.3023681640625px;
+  height: 650.5603637695312px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./../../../public/resources/images/bg-2.svg"); }
+
+.bg-3 {
+  position: absolute;
+  top: 10%;
+  left: 100%;
+  transform: translate(-50%, 0);
+  z-index: 1;
+  width: 708px;
+  height: 707.25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./../../../public/resources/images/bg-3.svg"); }
+
+.col-1-of-2 {
+  width: calc(100%/2);
+  float: left;
+  z-index: 2; }
+
+.icon {
+  position: relative; }

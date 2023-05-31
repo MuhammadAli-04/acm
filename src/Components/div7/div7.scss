@@ -1,0 +1,41 @@
+.div7{
+    padding: 9% 6%;
+    background-image: url('./../../../public/resources/images/contact us.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.card{
+    background : transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px rgba(0,0,6,.1);
+    &-body{
+        padding:2%
+    }
+}
+
+input{
+    background: transparent;
+    border: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+
+
+.btn-color{
+    background-color: #05192D;
+    color: white;
+}

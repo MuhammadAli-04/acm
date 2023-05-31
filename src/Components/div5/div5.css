@@ -1,0 +1,40 @@
+.div5 {
+  padding: 2% 6%;
+  overflow: hidden;
+  font-size: 12px; }
+
+.flex-container {
+  justify-content: space-between; }
+
+.grid-container {
+  display: grid;
+  place-items: center; }
+
+.list-item {
+  text-decoration: none;
+  color: black; 
+}
+
+.col-1-of-3 {
+  width: calc(100%/3);
+  float: left; 
+}
+
+.col-2-of-3 {
+  width: calc(2*(100%/3));
+  float: left; 
+}
+
+.values 
+{
+  margin: 25% 10%;
+  padding: 15% 10%;
+  background-image: url("../../../public/resources/div5/bg-values.png");
+  background-position: center;
+  border-radius: 50px; 
+}
+
+.values h3
+{
+  margin: 10% 0;
+}

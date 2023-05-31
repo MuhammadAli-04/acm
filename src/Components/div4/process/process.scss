@@ -1,0 +1,33 @@
+
+
+.process{
+    overflow: hidden;
+    font-size: 20px;
+    display: flex;
+    margin: 1% 0;
+}
+
+.col-1-of-6{
+    text-transform: uppercase;
+    width: calc(100%/6);
+    font-weight: bold;
+    float: left;
+}
+
+.col-5-of-6{
+    background-color: #526D82;
+    width: calc(5*(100%/6));
+    font-size: 15px;
+    padding: 1%;
+    float: left;
+    overflow: hidden;
+}
+.col-1-by-2-of-5{
+    width: calc(0.5*100%/5);
+    float: left;
+}
+
+.col-4-of-5{
+    width: calc(4*(100%/5));
+    float: left;
+}

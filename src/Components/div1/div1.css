@@ -1,0 +1,26 @@
+.div1 {
+  color: white;
+  background-color: #05192D;
+  padding: 4% 6%; }
+
+.icons {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.flex-container {
+  display: flex;
+  justify-content: space-around; }
+  .flex-container div {
+    margin: auto 0;
+    width: calc(100%/2); }
+
+.img {
+  display: grid;
+  place-items: center; }
+
+.colab {
+  display: flex;
+  flex-direction: column; }
