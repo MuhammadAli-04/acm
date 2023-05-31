@@ -14,7 +14,6 @@ function Dropdown() {
         className="nav-link text-light dropdown-toggle"
         href="#"
         role="button"
-        data-bs-toggle="dropdown"
         aria-expanded="false"
         style={{color: "black"}}
       >
@@ -23,10 +22,10 @@ function Dropdown() {
       {
         isClicked && <div className="grid-container child">
           <ul className="menu">
-            <Li class="item" text="IT Services" link="#services" />
-            <Li class="item" text="Our Process" link="#our-process" />
-            <Li class="item" text="DataLabb Values" link="#dl-values" />
-            <Li class="item" text="Methodologies" link="#methodologies" />
+            <Li class="item" text="Collaborations" link="#services" />
+            <Li class="item" text="Our Domain" link="#our-process" />
+            <Li class="item" text="Our Values" link="#dl-values" />
+            <Li class="item" text="Team" link="#methodologies" />
           </ul>
         </div>
       }

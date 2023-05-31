@@ -5,7 +5,7 @@ import './div7.css';
 
 function Div7(){
     return (
-        <div className="div7">
+        <div id='contactUs' className="div7">
             <Heading style={{color:'#05192D',textAlign:'center',marginBottom:'5%'}} content='Contact Us'/>
             <div className="card">
                 <div className="card-body">

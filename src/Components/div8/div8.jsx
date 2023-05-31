@@ -3,7 +3,7 @@ import "./div8.css";
 
 function Div8() {
   return(
-    <div id="contactUs" className="div8-content">
+    <div id="footer" className="div8-content">
         <div className="grid-container">
           <div className="flex-container flex-imgs">
             <img height='100px' src="./../../../resources/images/acm logo white.png" alt="acm logo" />

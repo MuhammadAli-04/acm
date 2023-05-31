@@ -2,8 +2,6 @@
     padding: 2% 6%;
     overflow:hidden;
     font-size: 12px;
-    display: grid;
-    place-items: center;
     position: relative;
     background-color: #526D82;
     height: 100vh;
@@ -53,9 +51,7 @@
     z-index: 2;
 }
 
-.flex-container{
-    
-}
+
 
 .icon{
     position : relative;
