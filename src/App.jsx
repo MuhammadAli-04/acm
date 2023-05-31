@@ -9,14 +9,12 @@ import Div6 from "./Components/div6/div6";
 import Div7 from "./Components/div7/div7";
 import Div8 from "./Components/div8/div8";
 
-import LoginSignup from "./Components/login-signup/loginSignup";
-
 import './App.css';
 import "./index.css";
 function App() {
   return (
     <div>
-      {/* <Div0/>
+      <Div0/>
       <Div1 />
       <Div2 />
       <Div3 />
@@ -24,8 +22,7 @@ function App() {
       <Div5 />
       <Div6 />
       <Div7 />
-      <Div8 /> */}
-      <LoginSignup/>
+      <Div8 />
     </div>
   );
 }

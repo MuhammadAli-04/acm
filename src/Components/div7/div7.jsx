@@ -1,6 +1,19 @@
 import React from "react";
 import Heading from './../div1/Heading/Heading';
 import './div7.css';
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyADSoWtzzC912wq_EfWNXuiZjssANDTudw",
+  authDomain: "acm1-2e449.firebaseapp.com",
+  projectId: "acm1-2e449",
+  storageBucket: "acm1-2e449.appspot.com",
+  messagingSenderId: "174881272049",
+  appId: "1:174881272049:web:7316ce65768213bd4c7950",
+  measurementId: "G-6TB8FMRPKF"
+};
+
+const app = initializeApp(firebaseConfig);
 
 
 function Div7(){
