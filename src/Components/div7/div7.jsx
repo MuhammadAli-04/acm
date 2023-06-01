@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 import { getDatabase, ref, set,onValue,get,child } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyADSoWtzzC912wq_EfWNXuiZjssANDTudw",
-  authDomain: "acm1-2e449.firebaseapp.com",
-  projectId: "acm1-2e449",
-  storageBucket: "acm1-2e449.appspot.com",
-  messagingSenderId: "174881272049",
-  appId: "1:174881272049:web:7316ce65768213bd4c7950",
-  measurementId: "G-6TB8FMRPKF"
+    apiKey: "AIzaSyA69c0cLIOJ9uKJhPGrboSFXixUWrzwJvI",
+    authDomain: "acm-uet-nc.firebaseapp.com",
+    projectId: "acm-uet-nc",
+    storageBucket: "acm-uet-nc.appspot.com",
+    messagingSenderId: "510828153165",
+    appId: "1:510828153165:web:2290086b307d08fd9a8f04",
+    measurementId: "G-9MBMDKRC37"
 };
 
 const app = initializeApp(firebaseConfig);
