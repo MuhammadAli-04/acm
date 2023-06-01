@@ -1,5 +1,5 @@
 .div5 {
-  padding: 2% 6%;
+  padding: 1% 6%;
   overflow: hidden;
   font-size: 12px; }
 
@@ -12,29 +12,21 @@
 
 .list-item {
   text-decoration: none;
-  color: black; 
-}
+  color: black; }
 
 .col-1-of-3 {
   width: calc(100%/3);
-  float: left; 
-}
+  float: left; }
 
 .col-2-of-3 {
   width: calc(2*(100%/3));
-  float: left; 
-}
+  float: left; }
 
-.values 
-{
-  margin: 25% 10%;
+.values {
+  margin: 30% 10% 30% 10%;
   padding: 15% 10%;
   background-image: url("../../../public/resources/div5/bg-values.png");
   background-position: center;
-  border-radius: 50px; 
-}
-
-.values h3
-{
-  margin: 10% 0;
-}
+  border-radius: 50px; }
+  .values h3 {
+    margin: 20% 0; }

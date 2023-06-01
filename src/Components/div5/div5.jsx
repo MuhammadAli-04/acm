@@ -19,8 +19,8 @@ function Div5() {
       </div>
       <div className="col-1-of-3">
         <div className='values'>
-          <h3>DataLabb Values</h3>
-          <P style={{fontSize:'14px'}} content='DataLabb creates a purpose that is optimized to yourrequirements, Custom by default. Contrast this with one size fits all bundles sometimes promoted by companies that rely mainly on product sales. Because we are vendor-independent, we can select the best-fit solution to minimize your Total Cost of Ownership and maximize your Quality of Service.'/>
+          <h4>ACM UET NC Values</h4>
+          <P style={{fontSize:'14px',textAlign:'justify'}} content='ACM UET NC creates a purpose that is optimized to yourrequirements, Custom by default. Contrast this with one size fits all bundles sometimes promoted by companies that rely mainly on product sales. Because we are vendor-independent, we can select the best-fit solution to minimize your Total Cost of Ownership and maximize your Quality of Service.'/>
         </div>
       </div>
     </div>

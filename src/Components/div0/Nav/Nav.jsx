@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./button/button";
 import Dropdown from "./Dropdown/dropdown";
+import { NavLink} from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -25,7 +26,10 @@ function Nav() {
               </a>
             </li>
             <li className="nav-item">
-            <a
+              {/* <NavLink to="/membership" className="home-text nav-link text-light active">
+                  Become a member
+              </NavLink> */}
+              <a
                 className="home-text nav-link text-light active "
                 aria-current="page"
                 href="#"
